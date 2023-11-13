@@ -22,6 +22,10 @@
 		width:400px;
 		margin:auto;
 	}
+	#searching-area>input[type=text]{
+		width:80%;
+		border : 0;
+	}
 </style>
 </head>
 <body>
