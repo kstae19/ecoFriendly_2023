@@ -4,7 +4,22 @@ public class ChallengeController {
 
 	
 	
-	public void controller(){
+	public void countChallengeList(){
+		
+		
+		
+		
+		
 		
 	}
+	
+	public void selectChallengeList(){
+		
+		
+		
+		
+		
+		
+	}
+	
 }
