@@ -6,18 +6,17 @@
 <head>
 <meta charset="UTF-8">
 <title>Insert title here</title>
+<!-- jQuery 라이브러리 -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
 <style>
 	#menubar{
 		width : 1200px;
 		height : 60px;
-		border : 2px solid orange;
+		border : 2px solid darkgreen;
 		box-sizing : border-box;
-		maring:0;
+		margin:auto;
 		padding:0;
-	}
-	a{
-	text-decoration : none;
 	}
 	.menu
 	{
@@ -25,11 +24,17 @@
 		float:left;
 		width : 200px;
 		cursor:pointer;
+		margin:auto;
 	}
 	#placeholder{
 		width : 1200px;
 		height : 800px;
-		opacity : 0.9;
+		margin:auto;
+	}
+	#placeholder>img{
+		width : 100%;
+		height : 100%;
+		opacity:0.8;
 	}
 </style>
 
@@ -41,7 +46,20 @@
 		<div class="menu" onclick="location.href='product'"><h1>PRODUCT</h1> </div>
 		<div class="menu"><h1>MOVE</h1></div>
 	</div>
-	<img id="placeholder" alt="" src="resources/images/cookieChunsik.jpg">
+	<div id="placeholder">
+	<img src="resources/images/cookieChunsik.jpg">
+	
+	</div>
+	
+	<script>
+		$(()=>{
+			$('.menu').hover(function(){
+				$(this).css('color', 'red');
+			}, function(){
+				$(this).css('color', 'black');
+			});
+		})
+	</script>
 
 </body>
 </html>
