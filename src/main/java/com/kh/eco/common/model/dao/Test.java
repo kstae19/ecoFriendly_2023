@@ -1,4 +1,4 @@
-package com.kh.eco.book.model.dao;
+package com.kh.eco.common.model.dao;
 
 public class Test { 
 

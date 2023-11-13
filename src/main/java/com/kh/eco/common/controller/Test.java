@@ -1,4 +1,4 @@
-package com.kh.eco.challenge.controller;
+package com.kh.eco.common.controller;
 
 public class Test { 
 

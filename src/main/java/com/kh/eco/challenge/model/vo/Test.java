@@ -1,4 +1,4 @@
-package com.kh.eco.book.model.vo;
+package com.kh.eco.challenge.model.vo;
 
 public class Test { 
 

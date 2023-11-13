@@ -1,4 +1,4 @@
-package com.kh.eco.book.model.service;
+package com.kh.eco.challenge.model.service;
 
 public class Test { 
 
