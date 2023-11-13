@@ -4,9 +4,10 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>product Home</title>
 </head>
 <body>
+상품 페이지
 
 </body>  
 </html>
