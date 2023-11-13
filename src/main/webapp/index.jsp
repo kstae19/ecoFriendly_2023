@@ -28,21 +28,20 @@
 	}
 	#placeholder{
 		width : 1200px;
-		height : 600px;
-		opacity : 0.8;
+		height : 800px;
+		opacity : 0.9;
 	}
 </style>
 
 </head>
 <body>
-	<h1>잘되나~?</h1> 
 	<div id="menubar">
 		<div class="menu"><h1>BOOK</h1></div>
 		<div class="menu"><h1>CHALLENGE</h1></div>
 		<div class="menu" onclick="location.href='product'"><h1>PRODUCT</h1> </div>
 		<div class="menu"><h1>MOVE</h1></div>
 	</div>
-	<img id="placeholder" alt="" src="resources/images/christmasChunsik.jpg">
+	<img id="placeholder" alt="" src="resources/images/cookieChunsik.jpg">
 
 </body>
 </html>
