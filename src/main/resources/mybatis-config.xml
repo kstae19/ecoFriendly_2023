@@ -9,8 +9,8 @@
 	</settings>
 	
 	<typeAliases>
-		<!-- test -->
-	</typeAliases>
+		
+	</typeAliases>  
 
 	
 	<mappers>
