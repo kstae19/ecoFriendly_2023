@@ -44,6 +44,7 @@
 		<div class="menu"><h1>CHALLENGE</h1></div>
 		<div class="menu" onclick="location.href='product'"><h1>PRODUCT</h1> </div>
 		<div class="menu"><h1>MOVE</h1></div>
+		<div class="menu" onclick="location.href='login'"><h1>LOGIN</h1> </div>
 	</div>
 	<div id="placeholder">
 	<img src="resources/images/cookieChunsik.jpg">
