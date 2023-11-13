@@ -16,6 +16,8 @@ local.properties
 /Servers
 target/
 .classpath
+settings/
+.settings/*
 
 # External tool builders
 .externalToolBuilders/
